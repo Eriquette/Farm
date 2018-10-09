@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background-image: url(farm_back.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body > section{
+  padding:20px 0 0 20px;
+}
+
+img {
+  width:200px;
+  height:200px;
+  position: relative;
+}
+
+img:hover{
+  width:210px;
+  height:210px;
+}
+
+/***************************************
+MEDIA QUERIES
+*****************************************/
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+  img {
+    width:150px;
+    height:150px;
+    position: relative;
+  }
+}
